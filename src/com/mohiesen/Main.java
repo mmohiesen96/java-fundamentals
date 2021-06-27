@@ -1,4 +1,4 @@
-package com.company.averagefinder;
+package com.mohiesen;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
