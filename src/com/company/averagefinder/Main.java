@@ -18,6 +18,7 @@ public class Main {
         System.out.println("I own " + catCount + " " + pluralize("cat", catCount) + ".");
 
         int turtleCount = 0;
+
         System.out.println("I own " + turtleCount + " " + pluralize("turtle", turtleCount) + ".");
 
     }
