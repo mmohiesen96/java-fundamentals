@@ -63,7 +63,7 @@ public class Main {
         int turtleCount = 0;
         System.out.println("I own " + turtleCount + " " + pluralize("turtle", turtleCount) + ".");
 
-        flipNHeads(5);
+        flipNHeads(4);
 
         clock();
     }
