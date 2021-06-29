@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1fe674c-2e7d-49f4-bb60-e2a746cb4025" name="Default Changelist" comment="" />
+    <list default="true" id="b1fe674c-2e7d-49f4-bb60-e2a746cb4025" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basiclibrary/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/basiclibrary/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basiclibrary/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/basiclibrary/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basiclibrary/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/basiclibrary/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basiclibrary/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basiclibrary/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basiclibrary/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basiclibrary/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basiclibrary/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basiclibrary/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basiclibrary/.idea/libraries-with-intellij-classes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basiclibrary/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basiclibrary/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basiclibrary/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basiclibrary/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basiclibrary/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basiclibrary/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/basiclibrary/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basiclibrary/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/basiclibrary/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basiclibrary/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/basiclibrary/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basiclibrary/lib/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/basiclibrary/lib/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basiclibrary/lib/src/main/java/basiclibrary/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/basiclibrary/lib/src/main/java/basiclibrary/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basiclibrary/lib/src/test/java/basiclibrary/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/basiclibrary/lib/src/test/java/basiclibrary/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basiclibrary/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/basiclibrary/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/basics/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/basics/.idea/description.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basics/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basics/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basics/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basics/.idea/project-template.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basics/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/java-fundamentals.iml" beforeDir="false" afterPath="$PROJECT_DIR$/basics/java-fundamentals.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/out/production/java-fundamentals/com/mohiesen/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/basics/out/production/java-fundamentals/com/mohiesen/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/com/mohiesen/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/com/mohiesen/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +49,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application">

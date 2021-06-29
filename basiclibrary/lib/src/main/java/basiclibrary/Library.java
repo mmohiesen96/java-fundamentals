@@ -3,8 +3,7 @@
  */
 package basiclibrary;
 
-import java.util.Arrays;
-import java.util.Random;
+import java.util.*;
 
 public class Library {
     public boolean someLibraryMethod() {
@@ -41,7 +40,36 @@ public class Library {
 
         return sum/integers.length;
     }
+    int analyzeWeatherData (int[][] arr) {
+        Set <Integer> dataWeather = new HashSet<>();
+        int min = Integer.MAX_VALUE , max = Integer.MIN_VALUE ;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                dataWeather.add(arr[i][j]);
+                if(arr[i][j] < min) {
+                    min = arr[i][j];
+                }
+                else if (arr[i][j] > max ) {
+                    max = arr[i][j];
+                }
+            }
+        }
+        System.out.println("High: " + max);
+        System.out.println("Low: " + min);
+        int tempMin = min;
+        for (int i = min; i <= max; i++) {
+            if (!dataWeather.contains(i)){
+                System.out.println("Never saw temperature: " + tempMin);
+            }
+            tempMin++;
+        }
 
+        return max;
+    }
+
+//    Method to analyze given weather data as an array of arrays
+//    prints the minimum and maximum values
+//    prints the temperatures between minimum and maximum data that hasn't showed up
     static int[] lowestAverage(int[][] arr) {
         double avg = 0 , minAvg = Integer.MAX_VALUE;
         int minAvgArr[] = arr[0];
@@ -59,23 +87,66 @@ public class Library {
         }
         return minAvgArr;
     }
+
+     String tally(List<String> votes) {
+        Map<String , Integer> candidates = new HashMap<>();
+        for (int i = 0; i < votes.size(); i++) {
+            candidates.put(votes.get(i) , 0);
+        }
+        int totalVotes = 0 , max = 0;
+        for (int i = 0; i < votes.size(); i++) {
+            totalVotes = candidates.get(votes.get(i));
+            candidates.put(votes.get(i) , ++totalVotes);
+        }
+        String winner = "";
+        Object[] arr = candidates.keySet().toArray();
+        for (int i = 0; i < candidates.size(); i++) {
+            if(candidates.get(arr[i]) > max) {
+                max = candidates.get(arr[i]);
+                winner = arr[i].toString();
+            }
+        }
+
+        return winner;
+    }
     public static void main(String[] args) {
-        int xRoll[] = roll(4);
-            System.out.println(Arrays.toString(xRoll));
+//        int xRoll[] = roll(4);
+//            System.out.println(Arrays.toString(xRoll));
+//
+//        int x[] = {1,2,3,4,44,5,44};
+//        System.out.println(containsDuplicates(x));
+//        System.out.println(findAverage(x));
+//
+//        int[][] weeklyMonthTemperatures = {
+//                {66, 64, 58, 65, 71, 57, 60},
+//                {57, 65, 65, 70, 72, 65, 51},
+//                {55, 54, 60, 53, 59, 57, 61},
+//                {65, 56, 55, 52, 55, 62, 57}
+//        };
+//
+//        int xx[] = lowestAverage(weeklyMonthTemperatures);
+//        System.out.println(Arrays.toString(xx));
 
-        int x[] = {1,2,3,4,44,5,44};
-        System.out.println(containsDuplicates(x));
-        System.out.println(findAverage(x));
-
-        int[][] weeklyMonthTemperatures = {
+        int[][] arr = {
                 {66, 64, 58, 65, 71, 57, 60},
                 {57, 65, 65, 70, 72, 65, 51},
                 {55, 54, 60, 53, 59, 57, 61},
                 {65, 56, 55, 52, 55, 62, 57}
         };
 
-        int xx[] = lowestAverage(weeklyMonthTemperatures);
-        System.out.println(Arrays.toString(xx));
+        new Library().analyzeWeatherData(arr);
+        List<String> votes = new ArrayList<>();
+        votes.add("Bush");
+        votes.add("Bush");
+        votes.add("Bush");
+        votes.add("Shrub");
+        votes.add("Hedge");
+        votes.add("Shrub");
+        votes.add("Bush");
+        votes.add("Hedge");
+        votes.add("Bush");
 
+        String winner = new Library().tally(votes);
+        System.out.println(winner + " received the most votes!");
     }
 }
