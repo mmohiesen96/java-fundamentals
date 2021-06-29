@@ -6,3 +6,5 @@
 - AverageFinder method .
 - lowest average array .
 - duplicate elements in array method .
+- analyzeWeatherData Added .
+- Tally Method for counting votes added .
