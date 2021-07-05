@@ -42,7 +42,7 @@ public class Restaurant implements Reviewable{
     }
 
 
-    private void updateRate(List<Review> reviews) {
+    public void updateRate(List<Review> reviews) {
         int sum = 0;
         for (Review r : reviews) {
             sum += r.starNo;
