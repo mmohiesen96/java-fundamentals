@@ -13,29 +13,29 @@ public class Review{
         this.starNo = starNo;
     }
 
-    public String getBody() {
-        return body;
-    }
-
-    public String getAuthor() {
-        return author;
-    }
-
-    public int getStarNo() {
-        return starNo;
-    }
-
-    public void setBody(String body) {
-        this.body = body;
-    }
-
-    public void setAuthor(String author) {
-        this.author = author;
-    }
-
-    public void setStarNo(int starNo) {
-        this.starNo = starNo;
-    }
+//    public String getBody() {
+//        return body;
+//    }
+//
+//    public String getAuthor() {
+//        return author;
+//    }
+//
+//    public int getStarNo() {
+//        return starNo;
+//    }
+//
+//    public void setBody(String body) {
+//        this.body = body;
+//    }
+//
+//    public void setAuthor(String author) {
+//        this.author = author;
+//    }
+//
+//    public void setStarNo(int starNo) {
+//        this.starNo = starNo;
+//    }
 
     @Override
     public String toString() {

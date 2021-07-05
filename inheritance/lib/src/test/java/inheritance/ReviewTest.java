@@ -7,10 +7,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class ReviewTest {
     Review rev;
-
+    Shop testShop;
     @BeforeEach
     public void init() {
         rev = new Review("good" , "user" , 2);
+        testShop = new Shop("test" , "test desc" , "$$$");
     }
 
     @Test
@@ -22,7 +23,11 @@ public class ReviewTest {
         assertEquals(expectedAuth , "user");
         assertEquals(expectedBody , "good");
     }
-
+    @Test
+    public void testShopRev() {
+        testShop.addReview("test" , "user" , 4);
+        assertTrue(testShop.getReviews().size() > 0 , "Return true if a review added to the linked list");
+    }
     @Test
     public void testToString() {
         assertNotEquals(null , rev.toString());
